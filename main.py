@@ -30,7 +30,7 @@ def _clean_app_cache():
     _remove_path(cache_dir)
 
 def _clean_system_logs():
-    logs.info("Очистка логов приложений.")
+    logs.info("Очистка системных логов.")
     for root, dirs, files in os.walk("/var/log"):
         for name in files:
             path = os.path.join(root, name)
