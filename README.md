@@ -1,4 +1,4 @@
-# SimpleLinuxCleane
+# SimpleLinuxCleaner
 
 ## Мини очистка вашей системы.
 Очищает:
